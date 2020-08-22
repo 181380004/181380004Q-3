@@ -6,26 +6,34 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="number" class="test_css"  maxlength="4"  id="
-    number" name="number"/>
-    <input type="email"></email>
+    <form>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd">
+      </form>
+      <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="prefer not to say" name="prefer not to stay" value="prefer not to stay">
+  <label for="prefer not to stay"></label>
+  <form>
+    <label for="country">Choose country:</label>
+    <select id="country" name="country">
+      <option value="pakistan">pakistan</option>
+      <option value="srilanka">Srilanka</option>
+      <option value="india">india</option>
+      <option value="iran">iran</option>
+    </select>
     
-    <input type="password" name="password"  maxlenght="64" id="password"/>
-    <button>
-        male
-    </button>
-    <button>
-        female
-    </button><button> prefer not stay
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday">
+  </form>
+  <input type="submit">
+    
+    
 
-    </button>
-    <label for="cars">Choose a car:</label>
 
-<select name="coutry" id="ountry">
-  <option value="pakistan">pakistan</option>
-  <option value="sri lanka">Sri lanka</option>
-  <option value="bangladesh">angladesh</option>
-  <option value="india">india</option>
-</select>
 </body>
 </html>
